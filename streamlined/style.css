@@ -1,4 +1,19 @@
 /* ELEMENT STYLES */
 body {
-  
+  font-family: 'Sigmar One', cursive;
+}
+
+/* CLASS STYLES */
+.button {
+  background-color: brown;
+  border: 1px solid orange;
+  border-radius: 0.25rem;
+  color: #ffffff;
+  padding: 0.35rem 1rem;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  transition: background-color 0.25s ease-in-out;
+}
+.button:hover {
+  background-color: black;
 }
