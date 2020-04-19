@@ -17,8 +17,10 @@ a:hover {
   color: rgb(255, 102, 0);
 }
 header {
-  font-family: 'Cinzel Decorative', cursive;
-  font-size: 3rem;
+  background-image: url("../assets/images/headshot.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 hr {
   display: inline-block;
@@ -29,8 +31,8 @@ li {
   display: inline-block;
   list-style-type: none;
   margin-left: 40px;
+  text-decoration: none;
 }
-
 p {
   display: block;
   width: 100%;
@@ -39,12 +41,12 @@ p {
 /* CLASS STYLES */
 .button {
   background-color: crimson;
-  border: 1px solid gray;
-  border-radius: 0.25rem;
+  border: 1px solid orange;
   color: #ffffff;
   display: block;
+  font-family: 'Cinzel Decorative', cursive;
   margin: 0.75rem 0.75rem;
-  padding: 0.25rem 0.5rem;
+  padding: 0.5rem 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
   transition: background-color 0.25s ease-in-out;
@@ -52,7 +54,6 @@ p {
 }
 .button:hover {
   background-color: rgb(255, 102, 0);
-  border: 1px solid orange;
   color: #ffffff;
   box-shadow: -1px 1px 5px rgb(201, 201, 201);
 }
@@ -72,10 +73,16 @@ p {
 
 /* ID STYLES */
 #anthonyPhan {
-  cursor: 
+  color: black;
+  font-size: 3rem;
   margin-top: 1rem;
   text-shadow: -5px 4px 1px orange;
+  transition: color 0.25 ease-in-out;
   -webkit-text-stroke: 2px crimson;
+}
+#anthonyPhan:hover {
+  color: rgb(80, 21, 21);
+  -webkit-text-stroke: 2px red;
 }
 
 /* MEDIA QUERIES   */
@@ -85,7 +92,7 @@ p {
   }
 }
 @media screen and (max-width: 470px) {
-  h1 {
+  #anthonyPhan {
     line-height: 100%;
   }
 }
