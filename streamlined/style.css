@@ -29,6 +29,13 @@ hr {
   width: 100%;
 }
 
+img {
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 80%;
+}
+
 li {
   display: inline-block;
   list-style-type: none;
