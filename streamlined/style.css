@@ -30,10 +30,9 @@ hr {
 }
 
 img {
-  display: block;
+  display: inline-block;
   height: auto;
-  margin: auto;
-  max-width: 80%;
+  max-width: 70%;
 }
 
 li {
@@ -95,8 +94,16 @@ footer .container {
   text-transform: uppercase;
 }
 
+.floatLeft {
+  float: left;
+}
+
 .floatRight {
   float: right;
+}
+
+.spaceBetween {
+  justify-content: space-between;
 }
 
 /* ID STYLES */
@@ -114,16 +121,34 @@ footer .container {
 }
 
 /* MEDIA QUERIES   */
+@media screen and (min-width: 900px) {
+  img {
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 899px) {
+  img {
+    max-width: 75%;
+  }
+}
+@media screen and (max-width: 469px) {
+  img {
+    max-width: 65%;
+  }
+}
+
 @media screen and (max-width: 415px) {
   li {
     margin-left: 20px;
   }
 }
+
 @media screen and (max-width: 470px) {
   #anthonyPhan {
     line-height: 100%;
   }
 }
+
 @media screen and (max-width: 555px) and (min-width: 416px) {
   footer li {
     margin: 0 30px;
