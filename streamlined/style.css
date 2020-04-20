@@ -24,7 +24,7 @@ footer {
 }
 
 hr {
-  display: inline-block;
+  display: block;
   margin: 0 0 1rem 0;
   width: 100%;
 }
@@ -32,7 +32,7 @@ hr {
 img {
   display: inline-block;
   height: auto;
-  max-width: 70%;
+  max-width: 65%;
 }
 
 li {
@@ -81,11 +81,7 @@ svg:hover {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
   margin: 0 1rem;
-}
-footer .container {
-  justify-content: space-evenly;
 }
 
 .emphatic {
@@ -103,7 +99,7 @@ footer .container {
 }
 
 .spaceBetween {
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 /* ID STYLES */
@@ -120,20 +116,25 @@ footer .container {
   -webkit-text-stroke: 2px red;
 }
 
+#copyright {
+  margin: 1.25rem 0 1rem 0;
+  text-align: center;
+}
+
 /* MEDIA QUERIES   */
 @media screen and (min-width: 900px) {
-  img {
-    max-width: 80%;
-  }
-}
-@media screen and (min-width: 700px) and (max-width: 899px) {
   img {
     max-width: 75%;
   }
 }
+@media screen and (min-width: 700px) and (max-width: 899px) {
+  img {
+    max-width: 70%;
+  }
+}
 @media screen and (max-width: 469px) {
   img {
-    max-width: 65%;
+    max-width: 60%;
   }
 }
 
