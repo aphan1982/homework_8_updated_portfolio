@@ -23,6 +23,11 @@ footer {
   margin-top: 2rem;
 }
 
+h2 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
 hr {
   display: block;
   margin: 0 0 1rem 0;
@@ -30,7 +35,8 @@ hr {
 }
 
 img {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   height: auto;
   margin: auto;
   max-width: 90%;
@@ -44,16 +50,6 @@ li {
 }
 footer li {
   margin: 0 40px;
-}
-
-svg {
-  fill: rgb(161, 161, 161);
-  width: 25px;
-  height: 25px;
-  transition: fill 0.2s ease-in-out;
-}
-svg:hover {
-  fill: rgb(204, 204, 204);
 }
 
 /* CLASS STYLES */
@@ -75,15 +71,15 @@ svg:hover {
   box-shadow: -1px 1px 5px rgb(201, 201, 201);
 }
 
+.columnBig {
+  display: inline-block;
+  width: 75%;
+}
 .columnSmall {
   display: inline-block;
   margin: auto;
   text-align: center;
   width: 25%;
-}
-.columnBig {
-  display: inline-block;
-  width: 75%;
 }
 
 .container {
@@ -93,6 +89,7 @@ svg:hover {
 
 .emphatic {
   color: crimson;
+  display: block;
   font-size: 1.25rem;
   text-transform: uppercase;
 }
@@ -105,8 +102,29 @@ svg:hover {
   float: right;
 }
 
+.gitHubLink {
+  height: 45px;
+  padding: 0 0.25rem;
+  transition: all 0.2s ease-in;
+  width: 45px;
+}
+.gitHubLink:hover {
+  transform: rotate(90deg);
+}
+
 .marginBottom {
   margin-bottom: 2.5rem;
+}
+
+.socialLink {
+  display: block;
+  fill: rgb(161, 161, 161);
+  width: 25px;
+  height: 25px;
+  transition: all 0.2s ease-in-out;
+}
+.socialLink:hover {
+  fill: rgb(204, 204, 204);
 }
 
 .spaceEvenly {
@@ -138,13 +156,6 @@ svg:hover {
     margin-left: 20px;
   }
 }
-
-@media screen and (max-width: 470px) {
-  #anthonyPhan {
-    line-height: 100%;
-  }
-}
-
 @media screen and (max-width: 555px) and (min-width: 416px) {
   footer li {
     margin: 0 30px;
@@ -153,5 +164,44 @@ svg:hover {
 @media screen and (max-width: 415px) {
   footer li {
     margin: 0 25px;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 630px) {
+  .columnBig {
+    width: 70%;
+  }
+  .columnSmall {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 629px) and (min-width: 450px) {
+  .columnBig {
+    width: 65%;
+  }
+  .columnSmall {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 449px) and (min-width: 360px) {
+  .columnBig {
+    width: 55%;
+  }
+  .columnSmall {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 359px) {
+  .columnBig {
+    width: 45%;
+  }
+  .columnSmall {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #anthonyPhan {
+    line-height: 100%;
   }
 }
