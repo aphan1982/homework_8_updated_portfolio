@@ -152,6 +152,18 @@ footer li {
   text-align: center;
 }
 
+#linkedInBtn {
+  background-color: #0e76a8;
+  border: 1px solid rgb(170, 170, 170);
+  transition: background-color, border 0.25s ease-in-out;
+}
+#linkedInBtn:hover {
+  background-color: #4abbf0;
+  border: 1px solid #96dafa;
+  color: #ffffff;
+  box-shadow: -1px 1px 5px rgb(201, 201, 201);
+}
+
 /* MEDIA QUERIES   */
 @media screen and (max-width: 415px) {
   li {
