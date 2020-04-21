@@ -1,110 +1,45 @@
 # Unit 08 Project 1 Homework: Professional Materials
 
-Now that you've had some practice with APIs and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer competitive.
+[Anthony Phan—Porfolio](https://aphan1982.github.io/homework_8_updated_portfolio/) is my portfolio website. It has been completely re-envisioned since my first, [Bootstrap-formatted portfolio](https://aphan1982.github.io/homework_2/). I opted to start this assignment from scratch because I wanted to thoroughly ingrain the principles of CSS formatting and HTML syntax in my skillset rather than becoming dependent on frameworks to make my creations mobile-responsive and esthetically pleasing. There is much that I would love to tweak and refine; however, I feel that building this project from the ground up was invaluable to my knowledge and comfortability with manipulating CSS and the basic design elements used.
 
-If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
+### [Launch my porfolio](https://aphan1982.github.io/homework_8_updated_portfolio/)
 
+## Functionality of Site 
+The whole of my portfolio was designed to be as clean and minimalistic as possible:
 
-## Requirements
+![a relative link](./assets/images/demo_imgs/deployed_site.png "splash page, Anthony Phan's portfolio")
 
-* Updated portfolio featuring project 1 and two exemplary homework assignments. 
+The `navbar` takes the user to any one of the pertinent fields of interest:
 
-* Update GitHub profile with pinned repositories featuring project 1 and two exemplary assignments. 
+![a relative link](./assets/images/demo_imgs/navbar.png "navbar links")
 
-* Updated resume
+The `portfolio` section itself does not have anything by way of description copy. This is by design. Both `<h2>` and `<img>` tags allow the user to link directly to my deployed websites, which are a better description than any cluttered copy might be:
 
-* Updated LinkedIn profile
+![a relative link](./assets/images/demo_imgs/deploy_site_link.png "demo of clickable site image or title")
 
+Immediately adjacent to the `title` of the project is a [GitHub](https://github.com) link that takes the user directly to the `repository` where the source code is kept:
 
-## Grading
+![a relative link](./assets/images/demo_imgs/github_icon.png "link to GitHub repository")
 
-| Requirement      | Weight |
-|---               |---     |
-| Portfolio        | 40%    |
-| GitHub Profile   | 40%    |
-| Resume           | 10%    |
-| LinkedIn Profile | 10%    |
+A brief `about` can be found at the bottom of the splash page:
 
+![a relative link](./assets/images/demo_imgs/brief_about.png "brief 'about me'")
 
-## Instructions
+Clicking on `more` will take the user to a dedicated `About` page:
 
-1. [Updated Portfolio](#updated-portfolio)
-2. [GitHub Profile](#updated-github-profile)
-3. [Updated Resume](#updated-resume)
-4. [Updated LinkedIn](#updated-linkedin)
+![a relative link](./assets/images/demo_imgs/about_full.png "about page")
 
-### Updated Portfolio
+Here the user can access my résumé `PDF`, or my [LinkedIn](https://www.linkedin.com/in/anthonyphan1982/) and [GitHub](https://github.com/aphan1982/) profiles by button links:
 
-Your updated site should have the following content:
+![a relative link](./assets/images/demo_imgs/big_button_links.png "links to résumé, LinkedIn, and GitHub")
 
-* Your name
+On all of the pages, `navigation` icons are displayed as `SVGs` that will take the user to other social media resource sites:
 
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number (phone number optional)
+![a relative link](./assets/images/demo_imgs/nav_icons.png "navigation icons")
 
-* A link to a PDF of your resume
+Though the `form` functionality does not exist at the moment to gather data or perform anything by way of e-mail communication, there is a dedicated `contact` page where the user can input correspondence information:
 
-* A list of projects. For each project, make sure you have the following:
-
-  * Project title
-
-  * Link to the deployed version
-
-  * Link to the GitHub repository
-
-  * Screenshot of the deployed application
-
-
-#### Design
-
-Unfortunately, this is where it gets a little bit subjective. Your site should look
-"polished." Here are a few guidelines on what that means:
-
-* Mobile-first design
-
-* Choose a color palette for your site so it doesn't just look like
-the default bootstrap theme or an unstyled HTML site.
-
-* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
-
-
-### Updated GitHub Profile 
-
-* If you haven't yet, now is the time to update the following in your GitHub profile: 
-
-    * Profile picture
-
-    * Bio
-
-    * Location
-
-    * Email
-
-    * Link to your portfolio
-
-* Employers (and potential collaborators) _will_ look at your GitHub profile, so put your best face forward. 
-
-* Pin some repos that you want to highlight
-
-  * Navigate to [GitHub](https://github.com/) and go to your profile.
-
-  * Click "Customize your pins"
-
-  * Click the checkboxes for your project and 2-3 homework assignments that you would like to share
-
-  * Make sure each of these projects is deployed and add a link to the deployed project in their README files
-
-* Follow your classmates. They are the beginning of your professional network and being a developer is as much about being a part of the community as it is writing code. 
-
-
-### Updated Resume 
-
-Submit a clear, concise and compelling resume, tailored to the type of job you’re looking for.
-
-
-### Updated LinkedIn Profile 
-
-Update your LinkedIn Profile with a strong bio statement, a professional photo, and links to your Github and portfolio.
-
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+![a relative link](./assets/images/demo_imgs/contact.png "contact form")
+​
+## Notes
+Though this site was very rewarding to build, there are issues that I'd love to smooth out, especially with some layout and formatting things. I couldn't decide how much whitespace I should give the site; besides, I had toyed with the idea of adding some background images or perhaps a custom SVG logo or font style. All told, I believe that what I have here displays nicely even on very small mobile screens.
