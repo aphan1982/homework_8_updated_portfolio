@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:900|Work+Sans:100&display=swap" rel="stylesheet">
     <!-- CSS styles -->
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Anthony Phan—About</title>
+    <title>Anthony Phan—Contact</title>
   </head>
 
   <!-- // BODY // -->
@@ -26,10 +26,10 @@
             <a href="./index.html#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#anthonyPhan">About</a>
+            <a href="./about.html">About</a>
           </li>
           <li>
-            <a href="./contact.html">Contact</a>
+            <a href="#anthonyPhan">Contact</a>
           </li>
         </ul>
       </nav>
@@ -37,45 +37,33 @@
 
     <hr>
 
-    <!-- // ABOUT // -->
+    <!-- // CONTACT FORM // -->
+    <!-- greeting -->
     <div class="container">
-      <h2 class="emphatic">I am an artist.</h2>
+      <h2 class="emphatic">Please reach out.</h2>
     </div>
     <div class="container">
       <p>
-        My canvases are web development, music, literature, language, and graphic design.
+        I'd love to discuss my work—both where I have been with my <a href="./index.html#portfolio" class="contactLink">portfolio</a> and where I would like to go. You can contact me via my <a href="#socialMediaNavs" class="contactLink">social media profiles</a> or fill out the following form:
       </p>
     </div>
+    <!-- input form -->
     <div class="container">
-      <h2 class="emphatic">I live for intelligent creation, fluid design, and rewarding functionality.</h2>
-    </div>
-    <div class="container">
-      <p>
-        I disassembled and reassembled a doorknob to prank my mother at age 4. I was composing music by 8. I toured Europe as a perfoming artist at 12. Before I could legally drink I could speak three languages. Engineering, art, and a mischievous wonder flow through my veins! I demand <em>a lot</em> from myself with regards to quality, innovation, and esthetic. If I may say so myself, I am invaluable to any creative production team.
-      </p>
-    </div>
-    
-    <!-- LINKS  -->
-    <!-- résumé -->
-    <div class="container" >
-      <div class="container columnBig"></div>
-      <a href="./assets/a_phan_resume.pdf" class="button columnSmall">Résumé</a>
-    </div>
-    <!-- LinkedIn -->
-    <div class="container">
-      <div class="container columnBig"></div>
-      <a href="https://www.linkedin.com/in/anthonyphan1982" class="button columnSmall" id="linkedInBtn">LinkedIn</a>
-    </div>
-    <!-- GitHub -->
-    <div class="container">
-      <div class="container columnBig"></div>
-      <a href="https://github.com/aphan1982" class="button columnSmall" id="gitHubBtn">GitHub</a>
+      <form method="post">
+        <label for="name" class="emphatic">Name:</label>
+        <input type="text" id="contactName" name="contactName"><br>
+        <label for="email" class="emphatic">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <label for="textArea" class="emphatic">Message:</label>
+        <textarea id="textArea" maxlength="2000" placeholder="Limit 2000 characters, thanks!"></textarea>
+        <input type="submit" value="Submit">
+      </form>
     </div>
 
     <!-- // FOOTER // -->
     <footer>
       <!-- SOCIAL MEDIA NAV LINKS -->
-      <nav class="container spaceEvenly">
+      <nav class="container spaceEvenly" id="socialMediaNavs">
         <ul>
           <!-- LinkedIn SVG -->
           <li>
